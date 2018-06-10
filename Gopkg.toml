@@ -15,4 +15,4 @@ ignored = [
 
 [[constraint]]
   name = "github.com/gin-gonic/gin"
-  version = "v1.2"
+  branch = "master"
