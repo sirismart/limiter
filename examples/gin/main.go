@@ -6,9 +6,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis"
-	"github.com/ulule/limiter"
-	mgin "github.com/ulule/limiter/drivers/middleware/gin"
-	sredis "github.com/ulule/limiter/drivers/store/redis"
+	"github.com/sirismart/limiter"
+	mgin "github.com/sirismart/limiter/drivers/middleware/gin"
+	sredis "github.com/sirismart/limiter/drivers/store/redis"
 )
 
 func main() {
